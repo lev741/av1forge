@@ -60,6 +60,7 @@ sudo dnf install ffmpeg mkvtoolnix rsync numactl
 
 > [!NOTE]
 > If your distro's ffmpeg lacks `libsvtav1`, you may need to build ffmpeg from source or use a static build. Point to it with `-f /path/to/ffmpeg`.
+> `libsvtav1` version 3.1.2 has a bug causing a deadlock during encoding. Try using a development version where it has been fixed ([latest static FFmpeg build](https://github.com/BtbN/FFmpeg-Builds/releases/latest))
 
 ---
 
